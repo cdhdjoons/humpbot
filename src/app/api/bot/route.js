@@ -11,7 +11,7 @@ await bot.init();
 bot.command("start", async (ctx) => {
   const keyboard = {
     inline_keyboard: [
-      [{ text: "🔘 Start Training Agent 🤖", web_app: { url: "https://crtgame.vercel.app/" } }],  // 게임 링크 수정
+      [{ text: "🔘 Start Training Agent 🤖", web_app: { url: "https://humpgame.vercel.app/" } }],  // 게임 링크 수정
       [{ text: "🔘 Follow on X 🐦", url: "https://x.com/" }],
       [{ text: "🔘 Join Telegram Chat 💬", url: "https://t.me/HUMP_official" }],
     ],
